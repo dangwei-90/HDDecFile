@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HDDecFile", "HDDecFile\HDDecFile.vcxproj", "{390D3D51-F295-4C55-A1EC-80AA07397733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{390D3D51-F295-4C55-A1EC-80AA07397733}.Debug|Win32.ActiveCfg = Debug|Win32
+		{390D3D51-F295-4C55-A1EC-80AA07397733}.Debug|Win32.Build.0 = Debug|Win32
+		{390D3D51-F295-4C55-A1EC-80AA07397733}.Release|Win32.ActiveCfg = Release|Win32
+		{390D3D51-F295-4C55-A1EC-80AA07397733}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
