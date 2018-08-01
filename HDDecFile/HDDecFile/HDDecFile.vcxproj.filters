@@ -22,6 +22,21 @@
     <None Include="res\HDDecFile.ico">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="res\backgroundfull.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hddecfile.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DecFileButton.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\QuitButton.bmp">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HDDecFile.h">
@@ -45,6 +60,9 @@
     <ClInclude Include="HDCryption.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HDDecFile.cpp">
@@ -57,6 +75,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="HDEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

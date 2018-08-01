@@ -27,7 +27,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
-    <UseOfMfc>Dynamic</UseOfMfc>
+    <UseOfMfc>Static</UseOfMfc>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -97,14 +97,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+    <None Include="res\backgroundfull.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\DecFileButton.bmp" />
+    <None Include="res\hddecfile.bmp" />
     <None Include="res\HDDecFile.ico" />
     <None Include="res\HDDecFile.rc2" />
+    <None Include="res\QuitButton.bmp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HDCryption.h" />
     <ClInclude Include="HDDecFile.h" />
     <ClInclude Include="HDDecFileDlg.h" />
     <ClInclude Include="HDEdit.h" />
+    <ClInclude Include="md5.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -113,6 +119,7 @@
     <ClCompile Include="HDDecFile.cpp" />
     <ClCompile Include="HDDecFileDlg.cpp" />
     <ClCompile Include="HDEdit.cpp" />
+    <ClCompile Include="Md5.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
