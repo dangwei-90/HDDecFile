@@ -31,6 +31,8 @@ END_MESSAGE_MAP()
 
 void CHDEdit::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags)
 {
+	return CEdit::OnChar(nChar, nRepCnt, nFlags);
+
 	CString strValue;
 	GetWindowText(strValue);
 	if (nChar == 8 || strValue.GetLength() == 0)
